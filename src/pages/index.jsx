@@ -8,6 +8,7 @@ import {
   homeObjThree,
   homeObjTwo,
 } from "../components/InfoSection/Data";
+import Services from "../components/ServicesInfo";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -21,6 +22,7 @@ const Home = () => {
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
+      <Services />
     </>
   );
 };
