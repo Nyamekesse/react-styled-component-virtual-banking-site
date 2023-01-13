@@ -9,6 +9,7 @@ import {
   homeObjTwo,
 } from "../components/InfoSection/Data";
 import Services from "../components/ServicesInfo";
+import Footer from "../components/Footer";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -21,8 +22,9 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
-      <InfoSection {...homeObjThree} />
       <Services />
+      <InfoSection {...homeObjThree} />
+      <Footer />
     </>
   );
 };
