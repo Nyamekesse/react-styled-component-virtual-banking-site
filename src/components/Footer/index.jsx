@@ -71,28 +71,23 @@ const Footer = () => {
               dolla
             </SocialLogo>
             <WebsiteRights>
-              dolla &copy; {new Date().getFullYear()} All rights reserved{" "}
+              dolla &copy; {new Date().getFullYear()} All rights reserved
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook ">
-                {" "}
-                <FaFacebook />{" "}
+                <FaFacebook />
               </SocialIconLink>
               <SocialIconLink href="/" target="_blank" aria-label="Instagram ">
-                {" "}
-                <FaInstagram />{" "}
+                <FaInstagram />
               </SocialIconLink>
               <SocialIconLink href="/" target="_blank" aria-label="Twitter ">
-                {" "}
-                <FaTwitter />{" "}
+                <FaTwitter />
               </SocialIconLink>
               <SocialIconLink href="/" target="_blank" aria-label="LinkedIn ">
-                {" "}
-                <FaLinkedin />{" "}
+                <FaLinkedin />
               </SocialIconLink>
               <SocialIconLink href="/" target="_blank" aria-label="Youtube ">
-                {" "}
-                <FaYoutube />{" "}
+                <FaYoutube />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
