@@ -43,7 +43,7 @@ const Navbar = ({ toggle }) => {
                 to="about"
                 smooth={true}
                 duration={500}
-                exact={true}
+                exact="true"
                 spy={true}
                 offset={-80}
               >
@@ -55,7 +55,7 @@ const Navbar = ({ toggle }) => {
                 to="discover"
                 smooth={true}
                 duration={500}
-                exact={true}
+                exact="true"
                 spy={true}
                 offset={-80}
               >
@@ -67,7 +67,7 @@ const Navbar = ({ toggle }) => {
                 to="services"
                 smooth={true}
                 duration={500}
-                exact={true}
+                exact="true"
                 spy={true}
                 offset={-80}
               >
@@ -79,7 +79,7 @@ const Navbar = ({ toggle }) => {
                 to="signup"
                 smooth={true}
                 duration={500}
-                exact={true}
+                exact="true"
                 spy={true}
                 offset={-80}
               >
@@ -89,10 +89,10 @@ const Navbar = ({ toggle }) => {
           </NavMenu>
           <NavBtn>
             <NavBtnLink
-              to="sign-in"
+              to="/sign-in"
               smooth={true}
               duration={500}
-              exact={true}
+              exact="true"
               spy={true}
               offset={-80}
             >
